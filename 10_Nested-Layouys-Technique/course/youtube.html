@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube.com Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <style>
+        p {
+            font-family: Roboto, Arial;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        .searchBar {
+            display: block;
+        }
+
+        .videoTitle {
+            margin-top: 0;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 20px;
+            margin-bottom: 12px;
+        }
+
+        .thumbnail {
+            width: 300px;
+            display: block;
+        }
+
+        .videoPreview {
+            width: 300px;
+            display: inline-block;
+            vertical-align: top;
+            margin-right: 15px;
+        }
+
+        .channelPicture {
+            display: inline-block;
+            width: 50px;
+            vertical-align: top;
+        }
+
+        .videoInfo {
+            display: inline-block;
+            width: 200px;
+        }
+
+        .profilePicture {
+            width: 40px;
+            border-radius: 50px;
+        }
+
+        .thumbnailRow {
+            margin-bottom: 12px;
+        }
+
+        .videoAuthor,
+        .videoStat {
+            font-size: 12px;
+            color: rgb(96, 96, 96);
+        }
+
+        .videoAuthor {
+            margin-bottom: 4px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <input class="searchBar" type="text" placeholder="Search">
+
+    <div class="videoPreview">
+        <div class="thumbnailRow">
+            <img class="thumbnail" src="/10_Nested-Layouys-Technique/course/thumbnails/thumbnail-1.webp" alt="">
+        </div>
+        <div>
+            <div class="channelPicture">
+                <img class="profilePicture" src="/10_Nested-Layouys-Technique/course/channelPictures/channel-1.jpeg"
+                    alt="">
+            </div>
+            <div class="videoInfo">
+                <p class="videoTitle">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                <p class="videoAuthor">Marques Brownlee</p>
+                <p class="videoStat">3.4M views &#183 6 months ago</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="videoPreview">
+        <div class="thumbnailRow">
+            <img class="thumbnail" src="/10_Nested-Layouys-Technique/course/thumbnails/thumbnail-2.webp" alt="">
+        </div>
+        <div>
+            <div class="channelPicture">
+                <img class="profilePicture" src="/10_Nested-Layouys-Technique/course/channelPictures/channel-2.jpeg"
+                    alt="">
+            </div>
+            <div class="videoInfo">
+                <p class="videoTitle">Try Not To Laugh Challenge #9</p>
+                <p class="videoAuthor">Markiplier</p>
+                <p class="videoStat">19M views &#183 4 years ago</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

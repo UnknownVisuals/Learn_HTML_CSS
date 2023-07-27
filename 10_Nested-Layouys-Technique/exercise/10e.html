@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10e</title>
+    <style>
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        .profileContainer {
+            width: 200px;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+            display: inline-block;
+            margin: 8px;
+        }
+
+        .profilePic {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .name {
+            font-weight: bold;
+            margin-top: 12px;
+            margin-left: 8px;
+            margin-bottom: 8px;
+        }
+
+        .friendCount {
+            color: gray;
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 8px;
+        }
+
+        .mutualFriend {
+            width: 24px;
+            height: 24px;
+            object-fit: cover;
+            border: none;
+            border-radius: 100%;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .friendContainer {
+            margin-left: 8px;
+            margin-bottom: 8px;
+        }
+
+        .addFriend {
+            background-color: rgb(28, 132, 201);
+            color: white;
+            margin-left: 8px;
+            margin-bottom: 8px;
+            border: none;
+            border-radius: 4px;
+            padding: 8px 16px;
+            transition: all 0.15s;
+        }
+
+        .addFriend:hover {
+            background-color: rgb(97, 157, 197);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="profileContainer">
+        <img src="cat (1).jpg" alt="profile picture" class="profilePic">
+        <p class="name">Udin</p>
+        <div class="friendContainer">
+            <img class="mutualFriend" src="cat (1).jpg" alt="">
+            <p class="friendCount">2 mutual friends</p>
+        </div>
+        <button class="addFriend">Add Friend</button>
+    </div>
+    <div class="profileContainer">
+        <img src="cat (2).jpg" alt="profile picture" class="profilePic">
+        <p class="name">Heru</p>
+        <div class="friendContainer">
+            <img class="mutualFriend" src="cat (1).jpg" alt="">
+            <p class="friendCount">2 mutual friends</p>
+        </div>
+        <button class="addFriend">Add Friend</button>
+    </div>
+    <div class="profileContainer">
+        <img src="cat (3).webp" alt="profile picture" class="profilePic">
+        <p class="name">Dayat</p>
+        <div class="friendContainer">
+            <img class="mutualFriend" src="cat (1).jpg" alt="">
+            <p class="friendCount">12 mutual friends</p>
+        </div>
+        <button class="addFriend">Add Friend</button>
+    </div>
+</body>
+
+</html>
