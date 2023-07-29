@@ -1,0 +1,72 @@
+body {
+  font-family: Roboto, Arial;
+  font-size: 14px;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  width: 400px;
+}
+
+.profilePictureContainer {
+  margin-right: 10px;
+}
+
+.profilePicture {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.tweetInfo {
+  flex: 1;
+}
+
+.nameAndHandle {
+  display: flex;
+  margin-bottom: 4px;
+}
+
+.name {
+  font-weight: bold;
+  margin-right: 4px;
+}
+
+.handle {
+  color: gray;
+}
+
+.tweet {
+  margin-bottom: 8px;
+}
+
+.linkContainer {
+  display: flex;
+  align-items: center;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: rgb(200, 200, 200);
+  overflow: hidden;
+}
+
+.linkThumbnail {
+  background-color: rgb(200, 200, 200);
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.linkInfo {
+  flex: 1;
+}
+
+.linkSource {
+  color: gray;
+  margin-bottom: 4px;
+}

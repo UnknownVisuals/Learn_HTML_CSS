@@ -1,0 +1,24 @@
+.flexContainer {
+  display: flex;
+}
+
+.lightPinkSection {
+  background-color: lightpink;
+  width: 100px;
+}
+
+.lightBlueSection {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.row2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.row2text {
+  background-color: black;
+  color: white;
+}
