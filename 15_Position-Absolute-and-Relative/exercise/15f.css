@@ -1,0 +1,45 @@
+body {
+  height: 3000px;
+}
+
+.container {
+  position: relative;
+  display: inline-block;
+}
+
+.jacket {
+  width: 300px;
+}
+
+.discount {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding: 8px 16px;
+}
+
+.addToCartContainer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addToCart {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  padding: 8px 16px;
+}
